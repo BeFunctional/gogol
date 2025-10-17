@@ -18,7 +18,7 @@ where
 import Control.Lens (Iso', iso)
 import Data.Aeson (FromJSON (..), ToJSON (..))
 import Data.ByteString (ByteString)
-import "base64-bytestring" qualified Data.ByteString.Base64.URL as Base64
+import qualified "base64-bytestring" Data.ByteString.Base64.URL as Base64
 import Data.Hashable
 import qualified Data.Text.Encoding as Text
 import GHC.Generics (Generic)
